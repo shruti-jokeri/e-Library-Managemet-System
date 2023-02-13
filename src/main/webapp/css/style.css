@@ -1,0 +1,67 @@
+@charset "ISO-8859-1";
+body
+{
+
+background-image:url("https://www.shutterstock.com/shutterstock/photos/302897378/display_1500/stock-photo-stack-of-books-on-wooden-table-back-to-school-copy-space-302897378.jpg")
+}
+
+form-element {
+  margin-bottom: 1em;
+  
+}
+form
+{
+	text-align: center;
+      margin-bottom: 10px;
+      margin: 200px auto 0;
+      border: inset maroon 4px;
+      border-width: thin medium thick 10px;
+      padding: 20px;
+      border:center;
+      outline-style:10px;
+      
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+input[type="text"], input[type="phone"], input[type="date"], input[type="bookname"] {
+  padding: 0.5em;
+  font-size: 1em;
+  width: 500%;
+  box-sizing: border-box;
+}
+
+
+input[type="submit"] {
+  padding: 0.5em 1em;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+input[type="text"], input[type="phone"], input[type="date"], input[type="bookname"] {
+  padding: 0.5em;
+  font-size: 1em;
+  width: 30%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+}
+
+input[type="text"]:hover, input[type="phone"]:hover, input[type="date"]:hover, input[type="bookname"]:hover {
+  background-color: lightgray;
+}
+a{
+	
+}

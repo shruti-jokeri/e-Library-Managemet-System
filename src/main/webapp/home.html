@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home Page</title>
+<style> 
+body{
+background-image:url("https://cdn.pixabay.com/photo/2021/01/21/16/49/books-5937823_960_720.jpg")
+}
+ h2{
+ background-color:blue;
+ 	color:white;
+ 	text-align: center;
+ }  
+ button:hover{
+ 	background-color:black;
+ 	border:white;
+ 	padding: 15px 22px;
+ 	display:outset-block;
+ 	color:white;
+ 	font-size: 16px;
+ 	font: bold15px arial,sans-serif;
+	text-shadow: none;
+	border-style: outset;
+	border-color: #0066A2;
+	text-align:right;
+	
+	
+ 	
+ }  
+ input[type=submit]:hover{
+ 	background-color:black;
+ 	border:white;
+ 	padding: 15px 22px;
+ 	display:inline-block;
+ 	color:white;
+ 	font-size: 16px;
+ 	font: bold15px arial,sans-serif;
+	text-shadow: none;
+	border-style: outset;
+	border-color: #0066A2;
+ 	
+ }
+ input.right{
+ float:left;
+ }
+		
+
+</style>
+</head>
+<body>
+<h2>e-Library Management System</h2>
+<br>
+<!-- SUBMIT BUTTON -->
+            <div>
+<a href="adddetails.html"><button>Add Records</button></a><br>
+<br>
+</div>
+
+<form action="ViewAllController" method="get"><br>
+<!-- SUBMIT BUTTON -->
+            <div>
+
+<input type="submit" value="View Records">
+</div>
+<br>
+<br>
+</form>
+
+<form action="login.html" method="get">
+			<input type="submit" value="Logout" class="divsubmit">
+		</form>
+
+</body>
+</html>

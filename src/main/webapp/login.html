@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+
+body
+{
+
+background-image:url("https://png.pngtree.com/background/20211217/original/pngtree-hand-drawn-cartoon-library-bookshelf-picture-image_1589672.jpg")
+}
+form {
+    text-align: center;
+      margin-bottom: 10px;
+      margin: 50px auto 0;
+      border-width: thin medium thick 10px;
+      padding: 20px;
+      border:center;
+      outline-style:10px;
+		
+		}
+    
+    input, textarea:hover {
+   text-align: center;
+      width: 30%;
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid #ddd;
+      box-sizing: border-box;
+    }
+
+    /* Style for submit button */
+    input[type="submit"] {
+    width: 150px;
+    text-align: center;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    
+
+    /* Style for submit button on hover */
+    input[type="submit"]:hover {
+    text-align: center;
+     
+    }
+    
+
+
+</style>
+</head>
+<body>
+<form action="Login_Controller" method="get">
+<div class= "divi">
+            <h2>e-Library Login page</h2>
+            <!-- NAME -->
+            <div class="row">
+                <div class="div30">
+                    <label>Email:</label>
+                </div>
+                <div class="div60">
+
+<input type="email" name="username" placeholder="enter email"><br><br>
+</div>
+            </div>
+            </div>
+            <div class="row">
+                <div class="div30">
+                    <label>Password:</label>
+                </div>
+                <div class="div60">
+<input type="password" name="password" placeholder="enter password"><br><br>
+			</div>
+            </div>
+	 <!-- SUBMIT BUTTON -->
+            <div>
+<input type="submit" value="Login" id="Login">
+</div>
+	
+
+<a href="signup.html">Sign_up</a>
+</form>
+
+</body>
+</html>
